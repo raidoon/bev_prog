@@ -11,6 +11,7 @@ int main()
 		cout << "a!b, a=" << a << " b=" << b << endl;
 	else
 		cout << "Monumentális a karakter\n";
+	
 
 
 	return 0;
