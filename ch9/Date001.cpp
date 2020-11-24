@@ -50,10 +50,12 @@ try{
 	Date x;
 	init_date(x, 2020, 10, 10);
 
-	x.d = 100;
-
 	cout << "Date: " << x.y << '.'
 		<< x.m << '.' << x.d << ".\n";
+
+	add_day(x, 10);
+	cout << "Date: " << x.y << '.'
+		<< x.m << '.' << x.d << "\n";
 
 	return 0;
 } catch (exception& e) {
